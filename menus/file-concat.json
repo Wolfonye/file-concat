@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle file-concat",
+        "command": "file-concat:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "file-concat",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "file-concat:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

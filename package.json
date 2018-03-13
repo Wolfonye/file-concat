@@ -1,0 +1,18 @@
+{
+  "name": "file-concat",
+  "main": "./lib/file-concat",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "file-concat:toggle"
+  },
+  "repository": "https://github.com/atom/file-concat",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
